@@ -1,10 +1,11 @@
 const readXlsxFile = require('read-excel-file/node');
-
+const path = require('path');
+const filePath = path.join(__dirname, '../data/June_mess.xlsx');
 
 
 
 async function exceler() {
-    const data = await readXlsxFile('/home/vamshi/Documents/LaughTale/Menu_Bot/data/June_mess.xlsx');
+    const data = await readXlsxFile(filePath);
 
 
        const menu = {
