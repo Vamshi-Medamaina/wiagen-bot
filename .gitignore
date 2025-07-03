@@ -1,2 +1,4 @@
 node_modules/
 .env
+# allow mess file
+!data/June_mess.xlsx
